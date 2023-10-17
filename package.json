@@ -1,0 +1,32 @@
+{
+  "name": "razzle-plugins",
+  "description": "Plugins for Razzle",
+  "scripts": {
+    "lint": "eslint '**/*.js'",
+    "format": "prettier --write '**/*.js' && eslint '**/*.js' --fix",
+    "release": "lerna version && lerna publish from-package",
+    "prepare": "[ -n \"$CI\" ] && exit 0 || husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rambler-digital-solutions/razzle-plugins.git"
+  },
+  "author": "Andrey Polischuk <me@andrepolischuk.com>",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@commitlint/cli": "^17.6.6",
+    "@commitlint/config-conventional": "^17.6.6",
+    "@rambler-tech/eslint-config": "^0.1.1",
+    "@rambler-tech/prettier-config": "^0.1.0",
+    "eslint": "^8.49.0",
+    "eslint-config-prettier": "^9.0.0",
+    "husky": "^8.0.3",
+    "lerna": "^7.3.0",
+    "lint-staged": "^14.0.1",
+    "prettier": "^3.0.3"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
