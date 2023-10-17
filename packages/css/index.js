@@ -55,7 +55,15 @@ module.exports = () => ({
 
       vendorCSSLoaders = [
         MiniCssExtractPlugin.loader,
-        'css-loader',
+        {
+          loader: 'css-loader',
+          options: {
+            url: {
+              // NOTE: игнорируем загрузку base64 изображений в стилях
+              filter: (url) => !/^data:image/.test(url)
+            }
+          }
+        },
         'postcss-loader'
       ]
     }
