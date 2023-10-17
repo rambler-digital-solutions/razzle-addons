@@ -1,0 +1,17 @@
+{
+  "name": "@rambler-tech/razzle-svgr",
+  "version": "0.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "sideEffects": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@svgr/webpack": "^8.1.0"
+  },
+  "peerDependencies": {
+    "razzle": ">=4",
+    "webpack": ">=5"
+  }
+}
