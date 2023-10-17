@@ -1,8 +1,15 @@
-# Razzle Plugins
+# Razzle Addons
 
-Plugins for [Razzle](https://github.com/jaredpalmer/razzle)
+Addons for [Razzle](https://github.com/jaredpalmer/razzle)
 
 ## Tools
+
+* [Bundle Analyzer](packages/bundle-analyzer)
+* [Compression](packages/compression)
+* [CSS](packages/css)
+* [Environment](packages/environment)
+* [Mutli Entry](packages/multi-entry)
+* [SVGR](packages/svgr)
 
 ## Contributing
 
