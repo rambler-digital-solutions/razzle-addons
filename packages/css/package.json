@@ -1,0 +1,22 @@
+{
+  "name": "@rambler-tech/razzle-css",
+  "version": "0.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "sideEffects": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "css-loader": "^6.8.1",
+    "css-minimizer-webpack-plugin": "^5.0.1",
+    "mini-css-extract-plugin": "^2.7.6",
+    "postcss-loader": "^7.3.3",
+    "razzle-dev-utils": "^4.2.18",
+    "style-loader": "^3.3.3"
+  },
+  "peerDependencies": {
+    "razzle": ">=4",
+    "webpack": ">=5"
+  }
+}
