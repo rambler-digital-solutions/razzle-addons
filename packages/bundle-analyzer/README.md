@@ -1,4 +1,6 @@
-# Bundle Analyzer Plugin 
+# Bundle Analyzer Plugin
+
+Analyze bundle content with [Webpack Bundle Analyzer](https://github.com/webpack-contrib/webpack-bundle-analyzer)
 
 ## Install
 

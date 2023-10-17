@@ -1,6 +1,6 @@
-# Environment Plugin 
+# Environment Plugin
 
-Pass environment variables to app with [`dotenv`](https://github.com/motdotla/dotenv) and custom variables
+Pass environment variables to app with [dotenv](https://github.com/motdotla/dotenv) and custom variables
 
 ## Install
 

@@ -1,6 +1,6 @@
-# Multi Entry Plugin 
+# Multi Entry Plugin
 
-Support multiple entries instead of one client
+Support for multiple entries instead of one
 
 ## Install
 
