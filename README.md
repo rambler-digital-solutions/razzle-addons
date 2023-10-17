@@ -8,7 +8,7 @@ Addons for [Razzle](https://github.com/jaredpalmer/razzle)
 * [Compression](packages/compression)
 * [CSS](packages/css)
 * [Environment](packages/environment)
-* [Mutli Entry](packages/multi-entry)
+* [Multi Entry](packages/multi-entry)
 * [SVGR](packages/svgr)
 
 ## Contributing
