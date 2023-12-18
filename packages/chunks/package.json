@@ -1,0 +1,14 @@
+{
+  "name": "@rambler-tech/razzle-chunks",
+  "version": "0.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "sideEffects": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "peerDependencies": {
+    "razzle": ">=4",
+    "webpack": ">=5"
+  }
+}
