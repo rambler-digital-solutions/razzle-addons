@@ -9,13 +9,13 @@ module.exports = (entrypoints) => ({
         const rurl = webpackConfig.entry.client[0]
 
         webpackConfig.entry = () => {
-          const entryObj = {}
+          const entryObject = {}
 
           clientKeys.forEach((key) => {
-            entryObj[key] = [rurl, entrypoints[key]]
+            entryObject[key] = [rurl, entrypoints[key]]
           })
 
-          return entryObj
+          return entryObject
         }
 
         webpackConfig.output.filename = 'static/js/[name].js'
