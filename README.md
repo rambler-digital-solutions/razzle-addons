@@ -5,9 +5,11 @@ Addons for [Razzle](https://github.com/jaredpalmer/razzle)
 ## Tools
 
 * [Bundle Analyzer](packages/bundle-analyzer)
+* [Chunks](packages/chunks)
 * [Compression](packages/compression)
 * [CSS](packages/css)
 * [Environment](packages/environment)
+* [ESLint](packages/eslint)
 * [Multi Entry](packages/multi-entry)
 * [SVGR](packages/svgr)
 

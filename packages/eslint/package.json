@@ -1,0 +1,19 @@
+{
+  "name": "@rambler-tech/razzle-eslint",
+  "version": "0.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "sideEffects": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "eslint-webpack-plugin": "^4.1.0",
+    "react-dev-utils": "^12.0.1"
+  },
+  "peerDependencies": {
+    "razzle": ">=4",
+    "webpack": ">=5",
+    "eslint": ">=8"
+  }
+}
