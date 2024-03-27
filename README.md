@@ -12,6 +12,7 @@ Addons for [Razzle](https://github.com/jaredpalmer/razzle)
 * [ESLint](packages/eslint)
 * [Multi Entry](packages/multi-entry)
 * [SVGR](packages/svgr)
+* [TypeScript](packages/typescript)
 
 ## Contributing
 
