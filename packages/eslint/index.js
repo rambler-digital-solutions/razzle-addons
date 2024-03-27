@@ -5,6 +5,7 @@ module.exports = (options = {}) => ({
   modifyWebpackConfig({webpackConfig}) {
     webpackConfig.plugins = [
       new ESLintPlugin({
+        extensions: ['js', 'jsx', 'ts', 'tsx'],
         ...options,
         formatter
       }),
