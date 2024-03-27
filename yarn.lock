@@ -1895,10 +1895,10 @@
   resolved "https://registry.yarnpkg.com/@polka/url/-/url-1.0.0-next.23.tgz#498e41218ab3b6a1419c735e5c6ae2c5ed609b6c"
   integrity sha512-C16M+IYz0rgRhWZdCmK+h58JMv8vijAA61gmz2rspCSwKwzBebpdcsiUmwrtJRdphuY30i6BSLEOP8ppbNLyLg==
 
-"@rambler-tech/eslint-config@^0.10.4":
-  version "0.10.4"
-  resolved "https://registry.yarnpkg.com/@rambler-tech/eslint-config/-/eslint-config-0.10.4.tgz#3b8498ce17484dd3f70c8ec348695205dd5d229e"
-  integrity sha512-9BDMqr8dUPdQFyFyYq+39Gp16rFn/tPIRFVAkTk5CarhGTsbx3gQDOG5xcaTtc2HM1oH4gUjK9stYtwhOzpUHQ==
+"@rambler-tech/eslint-config@^0.13.0":
+  version "0.13.0"
+  resolved "https://registry.yarnpkg.com/@rambler-tech/eslint-config/-/eslint-config-0.13.0.tgz#c055699d9dabc378c2f563ecaf16dd266bf6bd61"
+  integrity sha512-OHU+AfcWhTApajsmFrqyf4IdGDp/wyUzwWyvFALn+77TIS2HzeAKzPliQ2+gra7aEWAQC5gp7r/TRsLAxeUjCw==
   dependencies:
     "@babel/core" "^7.23.9"
     "@babel/eslint-parser" "^7.23.10"
@@ -1906,6 +1906,8 @@
     "@typescript-eslint/eslint-plugin" "^6.21.0"
     "@typescript-eslint/parser" "^6.21.0"
     eslint-config-next "^14.1.0"
+    eslint-config-prettier "^9.1.0"
+    eslint-import-resolver-node "^0.3.9"
     eslint-import-resolver-typescript "^3.6.1"
     eslint-import-resolver-webpack "^0.13.8"
     eslint-plugin-import "^2.29.1"

@@ -1,6 +1,3 @@
 {
-  "extends": ["@rambler-tech/eslint-config", "prettier"],
-  "rules": {
-    "todo-with-label/has-valid-pattern": "off"
-  }
+  "extends": ["@rambler-tech/eslint-config"]
 }
