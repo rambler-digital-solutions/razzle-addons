@@ -1,0 +1,17 @@
+{
+  "name": "@rambler-tech/razzle-typescript",
+  "version": "0.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "sideEffects": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "fork-ts-checker-webpack-plugin": "^9.0.2"
+  },
+  "peerDependencies": {
+    "razzle": ">=4",
+    "webpack": ">=5"
+  }
+}
