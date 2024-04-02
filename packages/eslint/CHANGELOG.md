@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.2](https://github.com/rambler-digital-solutions/razzle-addons/compare/@rambler-tech/razzle-eslint@0.1.1...@rambler-tech/razzle-eslint@0.1.2) (2024-04-02)
+
+### Bug Fixes
+
+- **eslint:** disable cache ([55dbd92](https://github.com/rambler-digital-solutions/razzle-addons/commit/55dbd92f9c9acd739f21ad73aa1a83f078024b7b))
+
 ## [0.1.1](https://github.com/rambler-digital-solutions/razzle-addons/compare/@rambler-tech/razzle-eslint@0.1.0...@rambler-tech/razzle-eslint@0.1.1) (2024-03-27)
 
 ### Bug Fixes
