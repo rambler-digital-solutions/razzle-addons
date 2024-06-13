@@ -31,3 +31,23 @@ module.exports = {
   }
 }
 ```
+
+It's also possible to provide args from svgr plugin
+
+```js
+const SvgrPlugin = require('@rambler-tech/razzle-svgr')
+
+module.exports = {
+  plugins: [
+    SvgrPlugin({
+      native: true,
+    })
+  ],
+  modifyWebpackConfig({webpackConfig}) {
+    // ...
+    return webpackConfig
+  }
+}
+```
+
+[Full list of options are avaible here](https://react-svgr.com/docs/options/)
