@@ -7,7 +7,7 @@ module.exports = () => ({
   modifyWebpackConfig({env: {target, dev: isDev}, webpackConfig}) {
     const isServer = target === 'node'
 
-    const localIdentName = isDev ? '[path]__[name]__[local]' : '[contenthash:base64:8]'
+    const localIdentName = isDev ? '[path][name]__[local]' : '[contenthash:base64:8]'
 
     let loaders
     let vendorCSSLoaders
